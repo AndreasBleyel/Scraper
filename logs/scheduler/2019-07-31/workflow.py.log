@@ -1,0 +1,494 @@
+[2019-07-31 11:39:31,306] {jobs.py:398} INFO - Started process (PID=7171) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:39:31,309] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:39:31,310] {logging_mixin.py:95} INFO - [2019-07-31 11:39:31,310] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:39:31,317] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:39:31,324] {logging_mixin.py:95} INFO - [2019-07-31 11:39:31,324] {__init__.py:4113} INFO - Creating ORM DAG for first_workflow
+[2019-07-31 11:39:31,368] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.062 seconds
+[2019-07-31 11:40:11,348] {jobs.py:398} INFO - Started process (PID=7229) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:40:11,351] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:40:11,351] {logging_mixin.py:95} INFO - [2019-07-31 11:40:11,351] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:40:11,358] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:40:11,398] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.050 seconds
+[2019-07-31 11:40:51,389] {jobs.py:398} INFO - Started process (PID=7298) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:40:51,391] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:40:51,391] {logging_mixin.py:95} INFO - [2019-07-31 11:40:51,391] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:40:51,399] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:40:51,439] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.050 seconds
+[2019-07-31 11:41:31,436] {jobs.py:398} INFO - Started process (PID=7375) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:41:31,439] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:41:31,440] {logging_mixin.py:95} INFO - [2019-07-31 11:41:31,440] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:41:31,445] {logging_mixin.py:95} INFO - [2019-07-31 11:41:31,444] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 9, in <module>
+    catchup=False)
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 3051, in __init__
+    validate_key(dag_id)
+  File "/usr/local/lib/python3.6/dist-packages/airflow/utils/helpers.py", line 61, in validate_key
+    "dots and underscores exclusively".format(**locals()))
+airflow.exceptions.AirflowException: The key (event scraper) has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2019-07-31 11:41:31,446] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:41:31,481] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.045 seconds
+[2019-07-31 11:42:11,479] {jobs.py:398} INFO - Started process (PID=7458) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:42:11,481] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:42:11,482] {logging_mixin.py:95} INFO - [2019-07-31 11:42:11,481] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:42:11,487] {logging_mixin.py:95} INFO - [2019-07-31 11:42:11,485] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 6, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:42:11,487] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:42:11,515] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.036 seconds
+[2019-07-31 11:42:51,508] {jobs.py:398} INFO - Started process (PID=7527) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:42:51,511] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:42:51,512] {logging_mixin.py:95} INFO - [2019-07-31 11:42:51,511] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:42:51,519] {logging_mixin.py:95} INFO - [2019-07-31 11:42:51,517] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 6, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:42:51,519] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:42:51,554] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.046 seconds
+[2019-07-31 11:43:31,553] {jobs.py:398} INFO - Started process (PID=7601) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:43:31,556] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:43:31,556] {logging_mixin.py:95} INFO - [2019-07-31 11:43:31,556] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:43:31,561] {logging_mixin.py:95} INFO - [2019-07-31 11:43:31,559] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 6, in <module>
+    import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:43:31,561] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:43:31,591] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.038 seconds
+[2019-07-31 11:44:11,590] {jobs.py:398} INFO - Started process (PID=7682) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:44:11,592] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:44:11,592] {logging_mixin.py:95} INFO - [2019-07-31 11:44:11,592] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:44:11,597] {logging_mixin.py:95} INFO - [2019-07-31 11:44:11,596] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 5, in <module>
+    from declarations import Event, Base
+ModuleNotFoundError: No module named 'declarations'
+[2019-07-31 11:44:11,598] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:44:11,640] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.050 seconds
+[2019-07-31 11:44:51,627] {jobs.py:398} INFO - Started process (PID=7755) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:44:51,630] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:44:51,631] {logging_mixin.py:95} INFO - [2019-07-31 11:44:51,630] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:44:51,636] {logging_mixin.py:95} INFO - [2019-07-31 11:44:51,635] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 5, in <module>
+    from declarations import Event, Base
+ModuleNotFoundError: No module named 'declarations'
+[2019-07-31 11:44:51,636] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:44:51,679] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.052 seconds
+[2019-07-31 11:45:31,667] {jobs.py:398} INFO - Started process (PID=7838) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:45:31,670] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:45:31,670] {logging_mixin.py:95} INFO - [2019-07-31 11:45:31,670] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:45:31,675] {logging_mixin.py:95} INFO - [2019-07-31 11:45:31,673] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 5, in <module>
+    from declarations import Event, Base
+ModuleNotFoundError: No module named 'declarations'
+[2019-07-31 11:45:31,675] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:45:31,699] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.032 seconds
+[2019-07-31 11:46:11,714] {jobs.py:398} INFO - Started process (PID=7909) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:46:11,718] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:46:11,718] {logging_mixin.py:95} INFO - [2019-07-31 11:46:11,718] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:46:11,722] {logging_mixin.py:95} INFO - [2019-07-31 11:46:11,721] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 47
+    first_task = PythonOperator(task_id='first_task', python_callable=get_data, dag=dag)
+             ^
+IndentationError: expected an indented block
+[2019-07-31 11:46:11,723] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:46:11,768] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.054 seconds
+[2019-07-31 11:46:51,754] {jobs.py:398} INFO - Started process (PID=7984) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:46:51,757] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:46:51,757] {logging_mixin.py:95} INFO - [2019-07-31 11:46:51,757] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:46:51,762] {logging_mixin.py:95} INFO - [2019-07-31 11:46:51,760] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 47
+    first_task = PythonOperator(task_id='first_task', python_callable=get_data, dag=dag)
+             ^
+IndentationError: expected an indented block
+[2019-07-31 11:46:51,762] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:46:51,798] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.044 seconds
+[2019-07-31 11:47:31,798] {jobs.py:398} INFO - Started process (PID=8056) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:47:31,801] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:47:31,801] {logging_mixin.py:95} INFO - [2019-07-31 11:47:31,801] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:47:31,806] {logging_mixin.py:95} INFO - [2019-07-31 11:47:31,804] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 6, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:47:31,806] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:47:31,838] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.041 seconds
+[2019-07-31 11:48:11,837] {jobs.py:398} INFO - Started process (PID=8129) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:48:11,852] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:48:11,853] {logging_mixin.py:95} INFO - [2019-07-31 11:48:11,853] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:48:11,861] {logging_mixin.py:95} INFO - [2019-07-31 11:48:11,859] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 6, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:48:11,861] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:48:11,911] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.075 seconds
+[2019-07-31 11:48:51,879] {jobs.py:398} INFO - Started process (PID=8201) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:48:51,881] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:48:51,882] {logging_mixin.py:95} INFO - [2019-07-31 11:48:51,881] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:48:51,887] {logging_mixin.py:95} INFO - [2019-07-31 11:48:51,885] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 6, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:48:51,887] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:48:51,915] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.036 seconds
+[2019-07-31 11:49:31,920] {jobs.py:398} INFO - Started process (PID=8265) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:49:31,922] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:49:31,922] {logging_mixin.py:95} INFO - [2019-07-31 11:49:31,922] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:49:31,927] {logging_mixin.py:95} INFO - [2019-07-31 11:49:31,925] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 6, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:49:31,927] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:49:31,961] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.041 seconds
+[2019-07-31 11:50:11,961] {jobs.py:398} INFO - Started process (PID=8328) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:50:11,964] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:50:11,965] {logging_mixin.py:95} INFO - [2019-07-31 11:50:11,965] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:50:11,970] {logging_mixin.py:95} INFO - [2019-07-31 11:50:11,969] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 6, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:50:11,970] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:50:12,000] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.038 seconds
+[2019-07-31 11:50:51,997] {jobs.py:398} INFO - Started process (PID=8404) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:50:52,000] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:50:52,000] {logging_mixin.py:95} INFO - [2019-07-31 11:50:52,000] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:50:52,010] {logging_mixin.py:95} INFO - [2019-07-31 11:50:52,005] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 6, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:50:52,010] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:50:52,052] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.055 seconds
+[2019-07-31 11:51:32,031] {jobs.py:398} INFO - Started process (PID=8483) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:51:32,033] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:51:32,033] {logging_mixin.py:95} INFO - [2019-07-31 11:51:32,033] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:51:32,037] {logging_mixin.py:95} INFO - [2019-07-31 11:51:32,036] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:51:32,038] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:51:32,061] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.030 seconds
+[2019-07-31 11:52:12,076] {jobs.py:398} INFO - Started process (PID=8558) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:52:12,078] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:52:12,078] {logging_mixin.py:95} INFO - [2019-07-31 11:52:12,078] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:52:12,082] {logging_mixin.py:95} INFO - [2019-07-31 11:52:12,081] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:52:12,082] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:52:12,112] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.036 seconds
+[2019-07-31 11:52:52,112] {jobs.py:398} INFO - Started process (PID=8619) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:52:52,114] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:52:52,115] {logging_mixin.py:95} INFO - [2019-07-31 11:52:52,115] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:52:52,120] {logging_mixin.py:95} INFO - [2019-07-31 11:52:52,118] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:52:52,120] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:52:52,145] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.034 seconds
+[2019-07-31 11:53:34,981] {jobs.py:398} INFO - Started process (PID=8690) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:53:34,984] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:53:34,984] {logging_mixin.py:95} INFO - [2019-07-31 11:53:34,984] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:53:34,988] {logging_mixin.py:95} INFO - [2019-07-31 11:53:34,987] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:53:34,989] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:53:35,020] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.039 seconds
+[2019-07-31 11:54:19,896] {jobs.py:398} INFO - Started process (PID=8766) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:54:19,900] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:54:19,900] {logging_mixin.py:95} INFO - [2019-07-31 11:54:19,900] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:54:19,904] {logging_mixin.py:95} INFO - [2019-07-31 11:54:19,903] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:54:19,904] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:54:19,938] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.042 seconds
+[2019-07-31 11:54:59,941] {jobs.py:398} INFO - Started process (PID=8823) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:54:59,944] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:54:59,944] {logging_mixin.py:95} INFO - [2019-07-31 11:54:59,944] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:54:59,948] {logging_mixin.py:95} INFO - [2019-07-31 11:54:59,947] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:54:59,949] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:54:59,978] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.036 seconds
+[2019-07-31 11:55:39,967] {jobs.py:398} INFO - Started process (PID=8916) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:55:39,969] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:55:39,969] {logging_mixin.py:95} INFO - [2019-07-31 11:55:39,969] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:55:39,973] {logging_mixin.py:95} INFO - [2019-07-31 11:55:39,971] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:55:39,973] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:55:40,000] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.033 seconds
+[2019-07-31 11:56:20,015] {jobs.py:398} INFO - Started process (PID=8976) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:56:20,019] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:56:20,020] {logging_mixin.py:95} INFO - [2019-07-31 11:56:20,020] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:56:20,024] {logging_mixin.py:95} INFO - [2019-07-31 11:56:20,023] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:56:20,025] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:56:20,067] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.052 seconds
+[2019-07-31 11:57:00,055] {jobs.py:398} INFO - Started process (PID=9024) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:57:00,057] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:57:00,058] {logging_mixin.py:95} INFO - [2019-07-31 11:57:00,057] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:57:00,061] {logging_mixin.py:95} INFO - [2019-07-31 11:57:00,059] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:57:00,061] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:57:00,091] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.036 seconds
+[2019-07-31 11:57:40,095] {jobs.py:398} INFO - Started process (PID=9208) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:57:40,097] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:57:40,097] {logging_mixin.py:95} INFO - [2019-07-31 11:57:40,097] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:57:40,101] {logging_mixin.py:95} INFO - [2019-07-31 11:57:40,099] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:57:40,101] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:57:40,130] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.034 seconds
+[2019-07-31 11:58:20,136] {jobs.py:398} INFO - Started process (PID=9311) to work on /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:58:20,138] {jobs.py:1711} INFO - Processing file /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py for tasks to queue
+[2019-07-31 11:58:20,138] {logging_mixin.py:95} INFO - [2019-07-31 11:58:20,138] {__init__.py:305} INFO - Filling up the DagBag from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:58:20,143] {logging_mixin.py:95} INFO - [2019-07-31 11:58:20,142] {__init__.py:416} ERROR - Failed to import: /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py", line 4, in <module>
+    from Scraper import Scraper
+ModuleNotFoundError: No module named 'Scraper'
+[2019-07-31 11:58:20,144] {jobs.py:1725} WARNING - No viable dags retrieved from /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py
+[2019-07-31 11:58:20,177] {jobs.py:406} INFO - Processing /home/andi/Documents/FH/DSIA-MsC/2Sem/SW Entwicklung/Lab/UE3/event-scraper/dags/workflow.py took 0.041 seconds
